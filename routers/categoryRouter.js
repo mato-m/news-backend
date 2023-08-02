@@ -1,5 +1,5 @@
 const express = require("express");
-const addCategory = require("../controllers/category/AddCategory");
+const addCategory = require("../controllers/category/addCategory");
 const jwtMiddleware = require("../jwtMiddleware");
 const addSubcategory = require("../controllers/category/addSubcategory");
 const deleteSubcategory = require("../controllers/category/deleteSubcategory");
