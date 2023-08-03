@@ -5,7 +5,7 @@
 -- Dumped from database version 15.3
 -- Dumped by pg_dump version 15.3
 
--- Started on 2023-08-02 20:42:58 CEST
+-- Started on 2023-08-03 14:59:16 CEST
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -347,7 +347,7 @@ ALTER TABLE ONLY newz.comment
     ADD CONSTRAINT usr_fk FOREIGN KEY (user_id) REFERENCES newz.usr(user_id) ON DELETE CASCADE NOT VALID;
 
 
--- Completed on 2023-08-02 20:42:59 CEST
+-- Completed on 2023-08-03 14:59:17 CEST
 
 --
 -- PostgreSQL database dump complete
