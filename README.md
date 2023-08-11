@@ -1,4 +1,4 @@
-# Newz - a simple news portal
+# Newz - A simple news portal
 ## Features of this web app:
 1. Write or edit articles simply using Markdown editor
 2. Users can comment on articles
